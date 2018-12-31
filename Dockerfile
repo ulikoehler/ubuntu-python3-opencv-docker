@@ -6,6 +6,7 @@ RUN apt-get update \
         python3-pip \
         python3-opencv \
         python3-scipy \
+        python3-matplotlib \
     && ln -sf /usr/share/zoneinfo/Europe/Berlin /etc/localtime \
     && dpkg-reconfigure --frontend noninteractive tzdata \
     && rm -rf /var/lib/apt/lists/*
