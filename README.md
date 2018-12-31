@@ -12,3 +12,5 @@ Ubuntu docker image with preinstalled OpenCV for Python3. OpenCV and Python is i
 >>> cv2.__version__
 '3.2.0'
 ```
+
+If you need more recent OpenCV versions, consider using ![jjanzic/docker-python3-opencv](https://github.com/janza/docker-python3-opencv)
