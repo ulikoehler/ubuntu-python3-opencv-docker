@@ -1,4 +1,14 @@
 # ubuntu-python3-opencv-docker
-Ubuntu docker image with preinstalled OpenCV for Python3
+
+```sh
+docker pull ulikoehler/ubuntu-python3-opencv:latest
+```
 
 Currently we use Ubuntu 18.04. OpenCV is installed from `apt`.
+
+Ubuntu docker image with preinstalled OpenCV for Python3. OpenCV and Python is installed using apt-get, so we don't provide any more recent version than the package repository.
+
+```
+>>> cv2.__version__
+'3.2.0'
+```
